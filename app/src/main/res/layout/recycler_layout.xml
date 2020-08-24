@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#DAABAB">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -14,6 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#D8D8D8"
             android:orientation="vertical">
 
             <TextView
@@ -38,6 +40,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -46,6 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_weight="1"
+                    android:background="#00BCD4"
                     android:text="Edit" />
 
                 <Button
@@ -54,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_weight="1"
-                    android:background="#FB0000"
+                    android:background="#ED0151"
                     android:text="Delete"
                     android:textColor="@android:color/white" />
             </LinearLayout>
