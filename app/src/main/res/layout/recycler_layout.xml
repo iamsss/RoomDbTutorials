@@ -34,6 +34,30 @@
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="16dp"
                 android:text="This is note description." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:text="Edit" />
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="#FB0000"
+                    android:text="Delete"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
