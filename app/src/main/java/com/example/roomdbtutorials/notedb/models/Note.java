@@ -14,7 +14,7 @@ public class Note {
 
     private String title;
 
-    public Note(int note_id, String content, String title) {
+    public Note(int note_id, String title, String content) {
         this.note_id = note_id;
         this.content = content;
         this.title = title;

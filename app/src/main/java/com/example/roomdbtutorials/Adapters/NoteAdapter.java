@@ -42,13 +42,13 @@ public class NoteAdapter extends  RecyclerView.Adapter<NoteAdapter.viewHolder>{
             holder.editBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(context,noteModel.getTitle() + " is edited",Toast.LENGTH_SHORT);
+                    Toast.makeText(context,noteModel.getTitle() + " is edited",Toast.LENGTH_SHORT).show();
                 }
             });
             holder.deleteBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(context,noteModel.getTitle() + " is deleted",Toast.LENGTH_SHORT);
+                    Toast.makeText(context,noteModel.getTitle() + " is deleted",Toast.LENGTH_SHORT).show();
                 }
             });
     }
